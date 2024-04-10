@@ -151,7 +151,7 @@ As a rule of thumb you should only use defaults:
 
 ```bash
 bundle install
-bundle exec rspec
+RUBYOPT="-W:deprecated" bundle exec rspec
 ```
 
 ## Developing

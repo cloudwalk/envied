@@ -19,7 +19,7 @@ class ENVied
     error_on_missing_variables!(**options)
     error_on_uncoercible_variables!(**options)
 
-    ensure_spring_after_fork_require(args, **options)
+    ensure_spring_after_fork_require(args, options)
   end
 
   def self.env!(requested_groups, **options)
